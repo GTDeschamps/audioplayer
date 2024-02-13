@@ -101,7 +101,7 @@ setTrackPlaying: Function}) => {
     }
 
   return(
-    <div>
+    <div className={classes.box}>
         <div className={classes.rangeInfos}>
             <p>{getTime(timeSongInfo.currentTime)}</p>
             <input

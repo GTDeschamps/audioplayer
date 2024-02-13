@@ -1,10 +1,14 @@
 .turning {
 	animation: turning infinite linear 10s;
 	border-radius: 50%;
+	width: 75px;
+	height: 75px;
 }
 
 .notTurning{
 	border-radius: 50%;
+	width: 75px;
+	height: 75px;
 }
 
 @keyframes turning {
